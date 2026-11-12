@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- These page settings basically make the text work and make the website fit on phones -->
     <meta charset="UTF-8">
@@ -8,30 +9,67 @@
     <!-- This connects the CSS file so the website can have colors and other styles -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header>
- <!-- Nav allows the user to basically move to the other HTML files and navigate the website -->
-<nav>
-<a href="index.html">Home</a>
-<a href = "Lessons.html">Lessons</a>
-<a href = "calculator.html">Calculator</a>
-<a href = "lab.html">Labs</a>
-<a href = "practiceExam.html">Practice Exam</a>
-<a href = "credits.html">Credits</a>
-</nav>
-<h1>Welcome to Calculations</h1>
-<p>Use the calculator to calcualte which values your trying to solve</p>
-<p>Please select which Potenital Engery your calculating</p>
-</header>
-<main>
-<section>
+    <header>
+        <!-- Nav allows the user to basically move to the other HTML files and navigate the website -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Lessons.html">Lessons</a>
+            <a href="calculator.html">Calculator</a>
+            <a href="lab.html">Labs</a>
+            <a href="practiceExam.html">Practice Exam</a>
+            <a href="credits.html">Credits</a>
+        </nav>
+        <h1>Welcome to Calculations</h1>
+        <p>Use the calculator to calcualte which values your trying to solve</p>
+        <p>Please select which Potenital Engery your calculating</p>
+    </header>
+    <main>
+        <section>
+            <h2>Gravitational Potential Energy</h2>
+            <p>Formula: PE = mgh</p>
+            <p>Enter the values below:</p>
 
-</section>
-<section>
-    
-</section>
+            <!-- Input boxes for gravitational energy -->
+            <label for="mass">Mass (kg):</label>
+            <input type="number" id="mass">
 
-</main>
+            <p></p>
+
+            <label for="gravity">Gravity (m/s^2):</label>
+            <input type="number" id="gravity">
+
+            <p></p>
+
+            <label for="height">Height (m):</label>
+            <input type="number" id="height">
+
+            <p></p>
+
+            <button type="button">Calculate</button>
+        </section>
+        <section>
+            <h2>Elastic Potential Energy</h2>
+            <p>Formula: PE = 1/2 kx^2</p>
+            <p>Enter the values below:</p>
+
+            <!-- Input boxes for elastic energy -->
+            <label for="spring">Spring Constant (N/m):</label>
+            <input type="number" id="spring">
+
+            <p></p>
+
+            <label for="distance">Stretch or Compression (m):</label>
+            <input type="number" id="distance">
+
+            <p>     </p>
+
+            <button type="button">Calculate</button>
+
+        </section>
+
+    </main>
 
 
 
@@ -39,9 +77,10 @@
 
 
 
-<footer>
-
-</footer>
+    <footer>
+        <p>Potential Energy Educational Website</p>
+    </footer>
 
 </body>
+
 </html>
