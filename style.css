@@ -1,0 +1,79 @@
+/* Body controls the full page and gives it the dark colors and font */
+body {
+    background-color: #2d2d2e;
+    color: white;
+    font-family: Arial, sans-serif;
+    /* Margin 0 removes the empty space around the outside of the page */
+    margin: 0;
+}
+/* Text align center moves the header words into the middle */
+header {
+    text-align: center;
+}
+/* Navigation makes the menu darker and keeps the links in the middle */
+.navigation {
+    background-color: #1d1d1e;
+    text-align: center;
+}
+/* These styles make the nav links white bold and spaced apart */
+.navigation a {
+    color: white;
+    /* Margin 0 15px means no space on top or bottom and 15 pixels on the sides */
+    margin: 0 15px;
+    font-weight: bold;
+}
+/* Main keeps the content in the middle and stops it from getting too wide */
+main {
+    max-width: 800px;
+    /* Auto gives the same margin on the left and right so main stays centered */
+    margin: 30px auto;
+}
+/* Section uses a lighter gray so each topic is easier to tell apart */
+section {
+    background-color: #3c3c3d;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+/* The different font sizes show which headings are more important */
+h1 { font-size: 36px; }
+h2 { font-size: 28px; }
+h3 { font-size: 22px; }
+/* This gives the text and form items the same size and line spacing */
+p, li, label, input, textarea, select, button {
+    font-size: 18px;
+    line-height: 1.6;
+}
+/* Links are light blue so they are easy to see on the dark background */
+a {
+    color: #8fd3ff;
+}
+/* Max width keeps the images and videos from going past the page */
+img, iframe {
+    max-width: 100%;
+    border-radius: 10px;
+}
+/* Border none removes the border around the iframe */
+iframe {
+    border: none;
+}
+/* This makes a dashed box so I know where the PC picture will go */
+.image-note {
+    border: 2px dashed white;
+    text-align: center;
+}
+/* Display block puts each form box on a new line under its label */
+form label:not(.choice), input[type="text"], textarea, select {
+    display: block;
+    margin-top: 12px;
+}
+/* Width 100 percent makes the form boxes use the full width */
+input[type="text"], textarea, select {
+    box-sizing: border-box;
+    width: 100%;
+}
+/* Margin top adds space above the button so it does not touch the dropdown */
+button {
+    margin-top: 20px;
+}
+/* Text align center puts the footer words in the middle */
+footer { text-align: center; }
