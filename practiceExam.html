@@ -1,47 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- These page settings basically make the text work and make the website fit on phones -->
+    <!-- These page settings make the website fit on phones -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Exam</title>
-    <!-- This connects the CSS file so the website can have colors and other styles -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header>
- <!-- Nav allows the user to basically move to the other HTML files and navigate the website -->
-<nav>
-<a href="index.html">Home</a>
-<a href = "Lessons.html">Lessons</a>
-<a href = "calculator.html">Calculator</a>
-<a href = "lab.html">Labs</a>
-<a href = "practiceExam.html">Practice Exam</a>
-<a href = "credits.html">Credits</a>
-</nav>
-<h1>Welcome to the Practice Exam</h1>
-<p>This will quiz you on if you know your subject matter or not, </p>
-<P> It is composed of 10 Multiple Choice Questions and 4 Free response Questions</P>
-</header>
-<main>
-<section>
+    <header>
+        <!-- Navigation to other pages -->
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Lessons.html">Lessons</a>
+            <a href="calculator.html">Calculator</a>
+            <a href="lab.html">Labs</a>
+            <a href="practiceExam.html">Practice Exam</a>
+            <a href="credits.html">Credits</a>
+        </nav>
 
-</section>
-<section>
-    
-</section>
+        <h1>Welcome to the Practice Exam</h1>
+        <p>This will quiz you on whether you know your subject matter or not.</p>
+        <p>It is composed of 10 Multiple Choice Questions and 4 Free Response Questions.</p>
+    </header>
 
-</main>
+    <main>
+        <h2>Multiple Choice Questions</h2>
 
+        <section>
+            <h3>Question 1: What is the formula for gravitational potential energy?</h3>
+            <label><input type="radio" name="q1"> A</label>
+            <label><input type="radio" name="q1"> B</label>
+            <label><input type="radio" name="q1"> C</label>
+            <label><input type="radio" name="q1"> D</label>
+        </section>
 
+        <section>
+            <h3>Question 2: What happens to gravitational potential energy when height increases?</h3>
+            <label><input type="radio" name="q2"> A</label>
+            <label><input type="radio" name="q2"> B</label>
+            <label><input type="radio" name="q2"> C</label>
+            <label><input type="radio" name="q2"> D</label>
+        </section>
 
+        <section>
+            <h3>Question 3: What is the formula for elastic potential energy?</h3>
+            <label><input type="radio" name="q3"> A</label>
+            <label><input type="radio" name="q3"> B</label>
+            <label><input type="radio" name="q3"> C</label>
+            <label><input type="radio" name="q3"> D</label>
+        </section>
 
+        <section>
+            <h3>Question 4: What does the spring constant (k) represent?</h3>
+            <label><input type="radio" name="q4"> A</label>
+            <label><input type="radio" name="q4"> B</label>
+            <label><input type="radio" name="q4"> C</label>
+            <label><input type="radio" name="q4"> D</label>
+        </section>
 
+        <section>
+            <h3>Question 5: What is the unit of potential energy?</h3>
+            <label><input type="radio" name="q5"> A</label>
+            <label><input type="radio" name="q5"> B</label>
+            <label><input type="radio" name="q5"> C</label>
+            <label><input type="radio" name="q5"> D</label>
+        </section>
 
+        <section>
+            <h3>Question 6: What happens to elastic potential energy if a spring's stretch doubles?</h3>
+            <label><input type="radio" name="q6"> A</label>
+            <label><input type="radio" name="q6"> B</label>
+            <label><input type="radio" name="q6"> C</label>
+            <label><input type="radio" name="q6"> D</label>
+        </section>
 
-<footer>
+        <section>
+            <h3>Question 7: Which factor does NOT directly affect gravitational potential energy?</h3>
+            <label><input type="radio" name="q7"> A</label>
+            <label><input type="radio" name="q7"> B</label>
+            <label><input type="radio" name="q7"> C</label>
+            <label><input type="radio" name="q7"> D</label>
+        </section>
 
-</footer>
+        <section>
+            <h3>Question 8: What does x represent in the elastic potential energy formula?</h3>
+            <label><input type="radio" name="q8"> A</label>
+            <label><input type="radio" name="q8"> B</label>
+            <label><input type="radio" name="q8"> C</label>
+            <label><input type="radio" name="q8"> D</label>
+        </section>
+
+        <section>
+            <h3>Question 9: What happens to gravitational potential energy if mass doubles?</h3>
+            <label><input type="radio" name="q9"> A</label>
+            <label><input type="radio" name="q9"> B</label>
+            <label><input type="radio" name="q9"> C</label>
+            <label><input type="radio" name="q9"> D</label>
+        </section>
+
+        <section>
+            <h3>Question 10: Which object has elastic potential energy?</h3>
+            <label><input type="radio" name="q10"> A</label>
+            <label><input type="radio" name="q10"> B</label>
+            <label><input type="radio" name="q10"> C</label>
+            <label><input type="radio" name="q10"> D</label>
+        </section>
+
+        <h2>Free Response Questions</h2>
+
+        <section>
+            <h3>FRQ 1: Gravitational Potential Energy</h3>
+            <p>A 5 kg object is 10 meters above the ground. Calculate its gravitational potential energy using g = 9.8
+                m/s².</p>
+
+            <label for="frq1">Potential Energy (J):</label>
+            <input type="number" id="frq1">
+        </section>
+
+        <section>
+            <h3>FRQ 2: Elastic Potential Energy</h3>
+            <p>A spring has a spring constant of 200 N/m and is compressed by 0.5 meters. Calculate its elastic
+                potential energy.</p>
+
+            <label for="frq2">Potential Energy (J):</label>
+            <input type="number" id="frq2">
+        </section>
+
+        <section>
+            <h3>FRQ 3: Gravitational Potential Energy</h3>
+            <p>An object has 980 J of gravitational potential energy at a height of 20 meters. Find its mass using g =
+                9.8 m/s².</p>
+
+            <label for="frq3">Mass (kg):</label>
+            <input type="number" id="frq3">
+        </section>
+
+        <section>
+            <h3>FRQ 4: Elastic Potential Energy</h3>
+            <p>A spring stores 40 J of elastic potential energy when compressed by 0.4 meters. Calculate its spring
+                constant.</p>
+
+            <label for="frq4">Spring Constant (N/m):</label>
+            <input type="number" id="frq4">
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Potential Energy Educational Website</p>
+    </footer>
 
 </body>
+
 </html>
